@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            background-color: white;
+            font-family: arial;
+        }
+    </style>
+</head> 
+<body>
+    <h1>Produtos</h1>
+    <table border="2" width="400px">
+        <tr style="text-align: center;">
+            <th>Código</th>
+            <th>Produto</th>
+            <th>Preço</th>
+        </tr>
+        <tr style="text-align: center;">
+            <td>001</td>
+            <td>Notebook</td>
+            <td>R$ 2.500,99</td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>002</td>
+            <td>Tablet</td>
+            <td>R$ 999,99</td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td rowspan="2">Descontos</td>
+            <td colspan="2">cupom1 -R$ 10</td>
+        </tr>
+        <tr style="text-align: center;">
+            <td colspan="2">cupom2 -R$ 12</td>
+        </tr>
+        <tr style="text-align: center;">
+            <td>Total:</td>
+            <td colspan="2">R$ 3.478,98</td>
+        </tr>
+    </table>
+</body>
+</html>
